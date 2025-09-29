@@ -1,0 +1,13 @@
+tagsPartUm
+<h1>...
+<hr>
+
+<p>
+<br>
+
+<a href='#' target='_blank'>
+
+como duplicar uma linha de codigo em baixo
+
+-----------------------------------------------
+tagsPartDois
