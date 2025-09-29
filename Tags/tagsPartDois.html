@@ -6,24 +6,77 @@
     <title>Tags HTML Parte Dois</title>
     <style>
         *{
-            margin: 0;
-            padding: 0;
             box-sizing: border-box;
             background-color: #181a1b;
         }
-        html{
+        :root{
+            --primary-color: rgb(255, 235, 122);
+            --second-color: white;
+            --cor-c: red;
+            --cor-a: yellow;
+            --cor-m: rgb(0, 255, 200);
+            --cor-i: rgb(72, 255, 0);
+            --cor-l: rgb(255, 187, 249);
+            --cor-aa: rgb(255, 94, 0);
+        }
+
+        h1, h2{
+            color: var(--primary-color);
+        }
+        li, p, div{
+            color: var(--second-color);
+        }
+        .cartas{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
         }
         img{
-            max-width: 40rem;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
     <!-- images -->
-    <img src="/Tags/images/pantheon.jpg" alt="Imagem de um guerreiro do jogo league of legens chamado Pantheon">
+    <div class="cartas">
+        <img width="400px" src="/Tags/images/pantheon.jpg" alt="Imagem de um guerreiro do jogo league of legens chamado Pantheon">
+    <img width="400px" src='https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_8.jpg' alt="">
+    <img width="400px" src='https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_12.jpg' alt="">
+    <img width="400px" src="/Tags/images/pantheon.jpg" alt="Imagem de um guerreiro do jogo league of legens chamado Pantheon">
+    <img width="400px" src='https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_8.jpg' alt="">
+    <img width="400px" src='https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Neeko_12.jpg' alt="">
+    </div>
+
+    <h1>Lista não numerada</h1>
+    <!-- ul = unordened list -->
+    <ul>
+        <li>Panheon</li>
+        <li>Lux</li>
+        <li>Neeko</li>
+    </ul>
+
+    <h1>Lista numerada</h1>
+    <!-- ol = ordened list -->
+    <ol>
+        <li>Panheon</li>
+        <li>Lux</li>
+        <li>Neeko</li>
+    </ol>
+    <!-- se eu digitar li*3 cria três li de uma vez -->
+     
+    <h2>Tags de uso generico</h2>
+    <!-- span é inline pu seja não quebra linha enquanto a div quebra linha e cria um bloco -->
+     <p><span style="color: var(--cor-c);">C</span>
+        <apan style="color: var(--cor-a);">A</apan>
+        <apan style="color: var(--cor-m);">M</apan>
+        <apan style="color: var(--cor-i);">I</apan>
+        <apan style="color: var(--cor-l);">L</apan>
+        <apan style="color: var(--cor-aa);">A</apan></p>
+
+        <p>Cam <div>i</div>
+        </p>
+
 </body>
 </html>
