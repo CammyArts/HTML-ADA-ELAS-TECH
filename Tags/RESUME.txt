@@ -11,3 +11,19 @@ como duplicar uma linha de codigo em baixo
 
 -----------------------------------------------
 tagsPartDois
+img
+
+unordened list/ não numerada
+ul li
+
+ordened list/ numerada
+ol li
+
+span
+div
+-------------------------------------------------
+tagsFormatacao
+
+<b> deixa apenas bold
+<strong> faz a palavra ser importante ou seja ele tem valor semântico
+<i> italico
