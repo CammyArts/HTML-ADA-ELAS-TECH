@@ -1,0 +1,18 @@
+Elementos Semanticos
+<header>
+<main>
+
+<section>
+
+//article pode ser usado varias vezes repetidas vezes e dentro dele pode ser usado header, main e footer
+<article>
+    <header>
+
+    <main>
+
+    <footer>
+</article>
+
+</main>
+
+<footer>

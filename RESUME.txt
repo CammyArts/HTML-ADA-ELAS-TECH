@@ -1,0 +1,2 @@
+Vai em configurações
+pesquisa por 'word wrap' e coloca ele como 'on' para quebrar a linha do codigo automaticamente
